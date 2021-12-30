@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Assignment</title>
+</head>
+<body>
+
+    <h3>1: Write a js program to find maximum between two numbers?</h3>
+    <!-- Answer :...... -->
+    <br>
+    <script>
+
+            var n = 40;
+                m = 20;
+            if(n>m){
+            document.write("N is Maximum");
+            }
+            else{
+            document.write("M is Maximum");
+            }
+    </script>
+    <br><br><br><br>
+    <h3>2: Write a js program to find maximum between three numbers ?</h3>
+    Answer :......
+    <br>
+        <script>
+            document.getElementById('compare').innerHTML= para();
+            function para()
+            {
+            const a=3;
+            const b=7;
+            const c=50;
+            if(a>b && a>c){
+            document.write('A is greater');
+            }
+            else if (b>a && b>c) {
+            document.write('B is greater');
+            }
+            else{
+            document.write('C is greater');
+            }
+            }
+        </script>
+        <br><br><br><br>
+         <h3>3: Write a js program to check whether a number is negative, positive or zero ?</h3>
+         Answer :......
+         <script>
+            /*   const number = parseInt(prompt("Enter a number: "));
+
+            // check if number is greater than 0
+            if (number > 0) {
+             document.write("The number is positive");
+            }
+            // check if number is 0
+            else if (number == 0) {
+            document.write("The number is zero");
+            }
+
+            // if number is less than 0
+            else {
+                document.write("The number is negative");
+            }   */
+         </script>
+         <br><br><br><br>
+         <h3>4: Write a js program to print day of week name using switch case ? </h3>
+         Answer :......
+
+
+            <p id="demo"></p>
+            <script>
+            var day;
+            switch (4) {
+            case 0:
+            day = "Sunday";
+            break;
+             case 1:
+            day = "Monday";
+            break;
+            case 2:
+            day = "Tuesday";
+            break;
+            case 3:
+            day = "Wednesday";
+            break;
+            case 4:
+            day = "Thursday";
+            break;
+            case 5:
+            day = "Friday";
+            break;
+            case  6:
+            day = "Saturday";
+            break;
+        }
+        document.getElementById("demo").innerHTML = "Today is " + day;
+    </script>
+
+    <br><br><br><br>
+    <h3>5: Write a js program print the total number of days in a month using a switch case.</h3>
+    Answer :......
+        <br>
+
+        <script>
+            var month = 7;
+            switch (month){
+                case 1:
+                document.write("January has 31 days");
+                break;
+                case 2:
+                document.write("Febrary 28 has days");
+                break;
+                case 3:
+                document.write("March 31 has days");
+                break;
+                case 4:
+                document.write("April 30 has days");
+                break;
+                case 5:
+                document.write("May 31 has days");
+                break;
+                case 6:
+                document.write("June 30 has days");
+                break;
+                case 7:
+                document.write("July 31 has days");
+                break;
+                case 8:
+                document.write("August 31 has days");
+                break;
+                case 9:
+                document.write("September 30 has days");
+                break;
+                case 10:
+                document.write("October 31 has days");
+                break;
+                case 11:
+                document.write("Novmber 30 has days");
+                break;
+                case 12:
+                document.write("December 31 has days");
+                break;
+            }
+         
+        </script>
+
+                <br><br><br><br>
+                <h3>6: Write a js program to check whether an alphabet is a vowel or consonant using a switch case ?</h3>
+                Answer :......<br>
+                <script>
+                        
+                    var mychar = "E";  
+                    document.write("Checking the character are vowel are not ? <br/>");
+                    switch(mychar)
+                    {
+                        default: document.write(mychar + " is a consonant.");
+                            break;
+                        case "A": document.write(mychar + " is a vowel.");
+                            break;
+                        case "E": document.write(mychar + " is a vowel.");
+                            break;
+                        case "I": document.write(mychar + " is a vowel.");
+                            break;
+                        case "O": document.write(mychar + " is a vowel.");
+                            break;
+                        case "U": document.write(mychar + " is a vowel.");
+                            break;
+                    }
+                    document.write("<br/>Done!");
+
+
+                </script>
+
+                    <br><br><br><br>
+                    <h3> 7: Write a js program to find the maximum between two numbers using a switch case ?</h3>
+                    Answer :......<br>
+                    <script>
+
+                        let num1 = 10
+                        let num2 = 20
+
+                        switch ( true ) {
+                        case (num1>num2):
+                        document.write("num 1 is max");
+                        break;
+                        case (num2>num1):
+                        document.write("num 2 is max");
+                        break;
+                        }
+                    </script>
+
+                    <br><br><br><br>
+                    <h3> 8: Write a js program to check whether a number is even or odd using a switch case ?</h3>
+                    Answer :......<br>
+                    
+                    <script>
+                        let number=8
+                        switch (true){
+                            case (number %2== 0):
+                            document.write("Number is Even");
+                            break;
+                            case (number %2!= 0):
+                            document.write("Number is Odd");
+                            break;
+                            default:document.write("invalid");
+                        }                        
+
+                    </script>
+                        <br><br><br><br>
+                        <h3>9: Write a js program to compare two strings ?</h3>
+                        Answer :......<br>
+
+                        <script>
+                        let text1 = "ab";
+                        let text2 = "cd";
+                        if (text1===text2){
+                            document.write('They are Equal');
+                        }else{
+                            document.write('They are not equal');
+                        }
+
+                        </script>
+
+                        <br><br><br><br>
+
+                        <h3>10: Write a js program to find the highest frequency character in a string. ?</h3>
+                        Answer :......<br>
+
+                        <script>
+                            var str = 'Bilal';
+                            var freq = {};
+                                for (var i=0; i<str.length;i++) {
+                                    // console.log(str[i]+' =='+ i);
+                                    var character = str.charAt(i);
+                              
+                                    if (freq[character]) {
+                                    freq[character]++;
+                                   } else {
+                                    freq[character] = 1;
+                                    } 
+                                 }
+
+                                console.log(freq);
+                        </script>
+
+                        <br><br><br><br>
+
+                        <h3>11: Write a js program to find the lowest frequency character in a string. ?</h3>
+                        Answer :......<br>
+                        
+                        <script>
+
+
+
+
+                        </script>
+
+
+                        <br><br><br><br>
+                        <h3>12: Write a js program to input any character and check whether it is the alphabet, digit, or special character. ?</h3>
+                        Answer :......<br>
+
+                        <script>
+
+                            
+                                let input_char = "k";
+                               input_char = input_char.charCodeAt(0);
+                               
+                               if(( input_char  >= '97' &&  input_char  <= '122') || ( input_char  >= '65' &&  input_char  <= '90'))
+                              {
+                                  document.write(" This is alphabet ");
+                              }
+                              else if ( input_char  >= '48' &&  input_char  <= '57')
+                              {
+                                  document.write(" This is  a Digit");
+                              }
+                              else{
+                               document.write( "This is special character");
+                              }
+                            
+                        </script>
+
+
+                        <br><br><br><br>
+                        <h3>13:Write a js program to convert uppercase string to lowercase ?</h3>
+                        Answer :......<br>
+
+                        <script>
+                            const bilal="BiLal";
+
+                            console.log(bilal.toLowerCase());
+  
+                        </script>
+
+                        <br><br><br><br>
+                        <h3>14: Add a validation check to ensure that, a number is an integer. If it isn't, then issue an error message and console it ?</h3>
+                        Answer :......<br>
+
+                        <script>
+
+                              let input_char1 = "k";
+                               input_char1 = input_char1.charCodeAt(0);
+                              if (input_char1 >= 48 && input_char1 <= 57)
+                              {
+                                  console.log(" You entered a Digit ")
+                              }
+                              else
+                              {
+                                  console.log(" Error! ")
+                              }
+
+                        </script>
+
+                        <br><br><br><br>
+                        <h3> 15: What values do the following expressions evaluate to, console the results ?</h3>
+                        Answer :......<br>
+
+                        <script>
+
+                            console.log(false || (true && false))
+                            false
+                            console.log(true || (1 + 2))
+                            true
+                            console.log((1 + 2) || true)
+                            3
+                            console.log(true && (1 + 2))
+                            3
+                            console.log(false && (1 + 2))
+                            false
+                            console.log((1 + 2) && true)
+                            true
+                            console.log((32 * 4) >= 129)
+                            false
+                            console.log(false !== !true)
+                            false
+                            console.log(true === 4)
+                            false
+                            console.log(false === (847 === '847'))
+                            true
+                            console.log(false === (847 == '847'))
+                            false
+                            console.log((!true || (!(100 / 5) === 20) || ((328 / 4) === 82)) || false)
+                            true
+                        </script>
+
+
+
+    </body>
+    </html
